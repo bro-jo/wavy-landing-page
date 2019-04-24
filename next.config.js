@@ -11,7 +11,7 @@ module.exports = {
     }
   },
   //assetPrefix: '',
-  assetPrefix: !debug ? '/wavy-landing-page/' : '',
+  assetPrefix: !debug ? '' : '',
   webpack: (config, { dev }) => {
     // Perform customizations to webpack config
     // console.log('webpack');

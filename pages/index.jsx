@@ -7,15 +7,30 @@ import Email from '../component/email';
 
 const Index = () => (
   <div>
-    <MainBackground />
-    <Mission />
-    <MainSketch />
-    <div className="padding" />
-    <HowItWorks />
-    <div className="padding" />
-    <Email />
-    <div className="padding" />
+    <div className="body">
+      <MainBackground />
+      <Mission />
+      <MainSketch />
+      <div className="padding" />
+      <HowItWorks />
+      <div className="padding" />
+      <Email />
+      <div className="padding" />
+    </div>
     <style jsx>{`
+      .body {
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+
       body {
         overflow-x: hidden;
       }
