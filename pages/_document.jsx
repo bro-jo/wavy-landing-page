@@ -6,7 +6,6 @@ export default class MyDocument extends Document {
     return (
       <html>
       <Head>
-        <title>웨이비</title>
         <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="96x96" href="/static/favicon-96x96.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png" />
@@ -24,6 +23,7 @@ export default class MyDocument extends Document {
         }
       `}</style>
       <link href="https://fonts.googleapis.com/css?family=Anton|Do+Hyeon|Gothic+A1|Lato" rel="stylesheet" />
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
       </body>
       </html>
     );
