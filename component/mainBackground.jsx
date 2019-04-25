@@ -1,10 +1,18 @@
 import React from 'react';
 
 const MainBackground = () => (
-  <div>
+  <div className="mainBackground-container">
     <div className="mainBackgroundGradient" />
     <div className="mainBackgroundWhite" />
     <style jsx>{`
+      .mainBackground-container {
+        position: absolute;
+        width: 100vw;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 100vh;
+      }
+
       .mainBackgroundGradient {
         position: absolute;
         top: 0;

@@ -1,10 +1,8 @@
 import React from 'react';
 
 const MainSketch = () => (
-  <div>
-    <div className="wavySketchImage-wrapper">
-      <div className="wavySketchImage" />
-    </div>
+  <div className="wavySketchImage-wrapper">
+    <div className="wavySketchImage" />
     <style jsx>{`
       .wavySketchImage-wrapper {
         position: relative;
@@ -78,6 +76,8 @@ const MainSketch = () => (
           margin-right: auto;
           margin-bottom: 30px;
           margin-left: auto;
+          right: auto;
+          left: auto;
           width: 300px;
           height: 300px;
         }

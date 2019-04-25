@@ -118,12 +118,15 @@ const HowItWorks = () => (
       }
 
       .title {
-        font-weight: 800;
+        font-weight: 500;
+        font-size: 20px;
         color: #333333;
+        font-family: 'Do Hyeon', sans-serif;
       }
 
       .description {
         font-weight: 300;
+        font-size: 16px;
         color: #555555;
       }
     `}</style>

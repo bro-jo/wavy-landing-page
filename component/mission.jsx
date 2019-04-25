@@ -21,7 +21,7 @@ const Mission = () => (
 
       @media screen and (max-width: 550px) {
         .mission-wrapper {
-          width: 95%;
+          width: 90%;
           padding: 10px;
           margin-bottom: 50px;
         }
@@ -34,12 +34,14 @@ const Mission = () => (
       .productTitle {
         font-size: 24px;
         word-break: keep-all;
+        font-family: 'Lato', sans-serif;
       }
 
       .mainMessage {
         font-size: 42px;
         word-break: keep-all;
-        font-weight: 700;
+        font-weight: 500;
+        font-family: 'Do Hyeon', sans-serif;
       }
 
       .subMessage {
@@ -47,6 +49,7 @@ const Mission = () => (
         font-size: 16px;
         font-weight: 300;
         word-break: keep-all;
+        font-family: 'Gothic A1', sans-serif;
       }
 
     `}</style>

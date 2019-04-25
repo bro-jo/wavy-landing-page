@@ -4,6 +4,7 @@ import MainSketch from '../component/mainSketch';
 import Mission from '../component/mission';
 import HowItWorks from '../component/howItWorks';
 import Email from '../component/email';
+import Footer from '../component/footer';
 
 const Index = () => (
   <div>
@@ -16,6 +17,7 @@ const Index = () => (
       <div className="padding" />
       <Email />
       <div className="padding" />
+      <Footer />
     </div>
     <style jsx>{`
       .body {
@@ -29,6 +31,10 @@ const Index = () => (
         left: 0;
         right: 0;
         bottom: 0;
+      }
+
+      * {
+        font-family: 'Gothic A1', sans-serif;
       }
 
       body {
